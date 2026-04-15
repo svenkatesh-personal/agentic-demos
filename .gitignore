@@ -8,6 +8,15 @@ env/
 venv/
 ENV/
 .venv
+
+# Environment variables (never commit secrets)
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+.env.development
+.env.test
 build/
 develop-eggs/
 dist/

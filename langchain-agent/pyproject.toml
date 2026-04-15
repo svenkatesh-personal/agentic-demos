@@ -1,0 +1,16 @@
+[project]
+name = "langchain-agent"
+version = "0.1.0"
+description = "LangChain Agent - The Ecosystem King for multi-tool, multi-model applications"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-openai>=0.1.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
